@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+body {
+    background-color: rgb(247, 75, 238);
+}
+
+header {
+    background-color: rgb(243, 28, 146);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
+    border: 05px solid rebeccapurple;
+    border-radius: 08px;
+}
+
+header nav ul {
+    list-style: none;                            /* stilo na lista, nome some a estilização */
+    text-transform: uppercase;                   /* caixa alta*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+header nav li {
+    display: inline-block;                        /* posicionalos em linha*/
+    padding: 30px 30px;                           /*espaçamento, coloca mais de um valor o primeiro sera para cima e para baixo e depois o segundo para a direita e para esquerda*/        
+} 
+header nav li:hover {
+    background-color: rgb(247, 117, 247);
+    padding: 15px 30px;
+    transition: 1s ;
+}
+header nav a{
+    color: #FFF;
+}
+footer{
+    background-color: rgb(243, 28, 146);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+}
+footer img {
+    width: 100px;
+    border: 05px solid rebeccapurple;
+    border-radius: 08px;
+
+}
+/*footer ul li {
+    display: inline-block;                      
+    padding: 30px 30px; */
+    
+    footer li {
+        list-style: none;
+    }
+.informacoes{
+    display: flex;
+    padding: 20px;
+
+}
+.informacoes img{
+    padding: 10px 10px; 
+    border-radius: 50px;
+}
+.informacoes div {
+    padding-left: 20px;
+}
+h1{
+text-align: center;
+color: purple;
+font-family: 'Dancing Script';
+}
+.aprendizado{
+text-align: center;
+padding: 20px
+}
+
+h2{
+    color: rgb(153, 30, 98);
+font-family: 'Dancing Script';
+}
+
+h3{
+font-family: 'Dancing Script';
+color: rgb(153, 30, 98);
+}
+.aprendizado{
+    padding: 25px 50px;
+    color: #FFF; 
+}
+
+
+
+.tecnologias{
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.aprendizado .tecnologias{
+    display: flex;
+}
+.aprendizado .tecnologias figure{
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: pink;
+    box-shadow: 0 0 10px black;
+}
+.aprendizado .tecnologias img{
+    width: 150px;
+}
+
+.ola{
+    text-align: right;
+    font-size: larger;
+    padding: 50px;
+}
